@@ -1,4 +1,4 @@
-# 🪙 Gold Recovery Prediction Model
+# Gold Recovery Prediction Model
 
 This project aims to predict gold recovery rates at different processing stages in a mining operation using real production data. The goal is to create a machine learning model with optimized performance based on the **sMAPE** evaluation metric, while also ensuring proper data integrity and preprocessing.
 
@@ -6,7 +6,7 @@ The project was completed as part of a machine learning training course.
 
 ---
 
-## 📁 Datasets
+## Datasets
 
 - `gold_recovery_train.csv` — training data
 - `gold_recovery_test.csv` — test data (features only)
@@ -19,7 +19,7 @@ The project was completed as part of a machine learning training course.
 
 ---
 
-## 🧰 Tools & Libraries
+## Tools & Libraries
 
 - Python
 - pandas, numpy
@@ -29,19 +29,19 @@ The project was completed as part of a machine learning training course.
 
 ---
 
-## 🧪 Project Steps
+## Project Steps
 
-### 1. 📊 Data Preparation
+### 1. Data Preparation
 - Checked recovery calculation and validated with MAE
 - Identified and handled missing and anomalous values
 - Explored feature differences between train and test sets
 
-### 2. 📈 Data Analysis
+### 2. Data Analysis
 - Studied changes in metal concentrations across purification stages
 - Compared feed particle size distributions between train/test
 - Evaluated and removed outliers in total concentrations
 
-### 3. 🤖 Modeling
+### 3. Modeling
 - Wrote custom function to calculate sMAPE for evaluation
 - Trained multiple regression models
 - Used cross-validation to tune and evaluate models
@@ -49,7 +49,7 @@ The project was completed as part of a machine learning training course.
 
 ---
 
-## 📌 Business Context
+## Business Context
 
 - The model helps improve efficiency and planning in gold recovery pipelines.
 - Target metrics are calculated using a custom symmetric mean absolute percentage error (sMAPE) function.
@@ -57,7 +57,7 @@ The project was completed as part of a machine learning training course.
 
 ---
 
-## ✅ Final Results
+## Final Results
 
 - Model delivered strong performance under sMAPE evaluation
 - Provided reliable predictions across both key targets
@@ -65,7 +65,7 @@ The project was completed as part of a machine learning training course.
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Clone this repo
 2. Ensure all three CSV files are in the same directory as the notebook
@@ -74,7 +74,7 @@ The project was completed as part of a machine learning training course.
 
 ---
 
-## 🔗 Links
+## Links
 
 - [My LinkedIn](https://www.linkedin.com/in/ozturkkenes)
 - [My GitHub](https://github.com/Harewavy)
